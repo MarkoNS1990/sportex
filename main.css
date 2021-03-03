@@ -18,7 +18,6 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -36,7 +35,26 @@ a:hover {
 }
 
 /*
-    ==============================================
-                ****** GLOBAL ******
-    ==============================================
-*/
+      ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+  */
+/* header */
+.list-right {
+  position: absolute;
+  right: 40px;
+}
+
+nav {
+  background-color: #383838;
+}
+
+nav a {
+  color: #fff !important;
+}
+
+nav li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
