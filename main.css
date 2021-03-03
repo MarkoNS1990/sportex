@@ -3,8 +3,10 @@
                 ****** RESET ******
     ==============================================
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&display=swap");
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
@@ -40,21 +42,34 @@ a:hover {
       ==============================================
   */
 /* header */
-.list-right {
-  position: absolute;
-  right: 40px;
-}
-
 nav {
   background-color: #383838;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav a {
   color: #fff !important;
 }
 
+nav a:hover {
+  color: red !important;
+}
+
+nav .navbar-brand {
+  font-weight: 900;
+}
+
+nav .navbar-brand:hover {
+  color: #fff !important;
+}
+
 nav li {
   margin-right: 20px;
   list-style-type: none;
+}
+
+nav .list-right {
+  position: absolute;
+  right: 40px;
 }
 /*# sourceMappingURL=main.css.map */
