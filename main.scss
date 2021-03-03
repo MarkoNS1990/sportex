@@ -76,3 +76,16 @@ nav {
     right: 40px;
   }
 }
+
+// heading
+.heading-img {
+  background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)),
+    url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
+      no-repeat;
+  height: 50vh;
+}
+
+.heading-bottom {
+  margin: auto;
+  width: 60%;
+}
