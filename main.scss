@@ -3,7 +3,7 @@
                 ****** RESET ******
     ==============================================
 */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&family=Stick&display=swap");
 
 body {
   margin: 0;
@@ -38,6 +38,12 @@ a:hover {
   color: #333;
 }
 
+h1 {
+  font-family: "Stick", sans-serif;
+  opacity: 0.6;
+  letter-spacing: 2rem;
+}
+
 /*
       ==============================================
                   ****** GLOBAL ******
@@ -54,6 +60,7 @@ $header-black: #383838;
 nav {
   background-color: $header-black;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   a {
     color: #fff !important;
     &:hover {
@@ -61,7 +68,7 @@ nav {
     }
   }
   .navbar-brand {
-    font-weight: 900;
+    font-family: "Stick", sans-serif;
     &:hover {
       color: #fff !important;
     }
@@ -73,7 +80,7 @@ nav {
   }
   .list-right {
     position: absolute;
-    right: 40px;
+    right: 0px;
   }
 }
 
@@ -83,6 +90,9 @@ nav {
     url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
       no-repeat;
   height: 50vh;
+  @media (max-width: 768px) {
+    height: 80vh;
+  }
 }
 
 .heading-bottom {
