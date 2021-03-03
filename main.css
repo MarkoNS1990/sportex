@@ -1,0 +1,75 @@
+/*
+    ==============================================
+                ****** RESET ******
+    ==============================================
+*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --color-red: #f42;
+  --bg-color-red: #f42;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #333;
+}
+
+/*
+      ==============================================
+                  ****** GLOBAL ******
+      ==============================================
+  */
+/* header */
+nav {
+  background-color: #383838;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav a {
+  color: #fff !important;
+}
+
+nav a:hover {
+  color: red !important;
+}
+
+nav .navbar-brand {
+  font-weight: 900;
+}
+
+nav .navbar-brand:hover {
+  color: #fff !important;
+}
+
+nav li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+nav .list-right {
+  position: absolute;
+  right: 40px;
+}
+/*# sourceMappingURL=main.css.map */
