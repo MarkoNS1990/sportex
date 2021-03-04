@@ -52,6 +52,7 @@ h1 {
 
 // Variables
 $header-black: #383838;
+$price: #d35266;
 
 //
 
@@ -82,6 +83,10 @@ nav {
     position: absolute;
     right: 0px;
   }
+  .btn-header:hover {
+    transform: scale(1.06);
+    transition: 0.5s ease-in;
+  }
 }
 
 // heading
@@ -89,8 +94,8 @@ nav {
   background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)),
     url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
       no-repeat;
-  height: 50vh;
-  @media (max-width: 768px) {
+  height: 300px;
+  @media (max-width: 1085px) {
     height: 80vh;
   }
 }
@@ -98,4 +103,49 @@ nav {
 .heading-bottom {
   margin: auto;
   width: 60%;
+}
+
+// hot ads
+.hot-ads {
+  background-color: whitesmoke;
+}
+
+// categories
+.categories {
+  .row {
+    justify-content: space-between;
+    @media only screen and (max-width: 768px) {
+      text-align: center;
+    }
+    .item {
+      background-color: whitesmoke;
+      flex-basis: 21%;
+      margin: 5px;
+      @media only screen and (max-width: 768px) {
+        flex-basis: 45%;
+      }
+
+      .price {
+        color: $price;
+      }
+
+      .item-bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  .span-text {
+    text-transform: lowercase;
+  }
+  .lead {
+    font-size: 0.7rem;
+  }
+}
+
+// media query
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
 }

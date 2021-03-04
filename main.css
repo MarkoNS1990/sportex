@@ -80,13 +80,20 @@ nav .list-right {
   right: 0px;
 }
 
+nav .btn-header:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
 .heading-img {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 221, 5, 0.7)), to(rgba(19, 18, 18, 0.8))), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
   background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
-  height: 50vh;
+  height: 300px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1085px) {
   .heading-img {
     height: 80vh;
   }
@@ -95,5 +102,62 @@ nav .list-right {
 .heading-bottom {
   margin: auto;
   width: 60%;
+}
+
+.hot-ads {
+  background-color: whitesmoke;
+}
+
+.categories .row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .categories .row {
+    text-align: center;
+  }
+}
+
+.categories .row .item {
+  background-color: whitesmoke;
+  -ms-flex-preferred-size: 21%;
+      flex-basis: 21%;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .categories .row .item {
+    -ms-flex-preferred-size: 45%;
+        flex-basis: 45%;
+  }
+}
+
+.categories .row .item .price {
+  color: #d35266;
+}
+
+.categories .row .item .item-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.categories .span-text {
+  text-transform: lowercase;
+}
+
+.categories .lead {
+  font-size: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
