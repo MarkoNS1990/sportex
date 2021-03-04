@@ -125,12 +125,13 @@ nav .btn-header:hover {
   -ms-flex-preferred-size: 21%;
       flex-basis: 21%;
   margin: 5px;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
   .categories .row .item {
-    -ms-flex-preferred-size: 45%;
-        flex-basis: 45%;
+    -ms-flex-preferred-size: 46%;
+        flex-basis: 46%;
   }
 }
 
@@ -153,6 +154,18 @@ nav .btn-header:hover {
 
 .categories .lead {
   font-size: 0.7rem;
+}
+
+footer {
+  background-color: #383838;
+}
+
+footer hr {
+  height: 10px;
+  background-color: black;
+  width: 60%;
+  margin: 10px auto;
+  border: none;
 }
 
 @media (min-width: 768px) {

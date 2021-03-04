@@ -121,8 +121,9 @@ nav {
       background-color: whitesmoke;
       flex-basis: 21%;
       margin: 5px;
+      padding: 10px;
       @media only screen and (max-width: 768px) {
-        flex-basis: 45%;
+        flex-basis: 46%;
       }
 
       .price {
@@ -140,6 +141,19 @@ nav {
   }
   .lead {
     font-size: 0.7rem;
+  }
+}
+
+// footer
+footer {
+  background-color: $header-black;
+
+  hr {
+    height: 10px;
+    background-color: black;
+    width: 60%;
+    margin: 10px auto;
+    border: none;
   }
 }
 
