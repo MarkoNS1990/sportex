@@ -299,6 +299,10 @@ footer hr {
   border: none;
 }
 
+footer a:hover {
+  color: green;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 90%;
