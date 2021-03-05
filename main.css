@@ -9,6 +9,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
