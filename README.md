@@ -1,59 +1,36 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
-# Project Name
+# Sportex
 
-> One paragraph statement about the project.
+> Web shop for selling sporting goods
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Web shop for sporting goods (football,basketball, hockey...) built using html css and bootstrap framework
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://vibrant-noether-f589e4.netlify.app/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Download or clone repo to your system and run it locally.
 
 ## Authors
 
-👤 **Author1**
+👤 **Marko Zecevic**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/MarkoNS1990)
 
 ## 🤝 Contributing
 
@@ -67,9 +44,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Design idea by Mohammed Awad on Behance
 
 ## 📝 License
 
