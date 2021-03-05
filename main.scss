@@ -149,7 +149,7 @@ nav {
 .search {
   background-color: whitesmoke;
 
-  .col-3 {
+  .col-sm-3 {
     padding: 20px 20px 20px 80px;
     font-size: 14px;
     border-right: 1px solid gray;
@@ -171,6 +171,68 @@ nav {
     input,
     label {
       padding-bottom: 5px;
+    }
+  }
+  .col-sm-9 {
+    .results {
+      margin-right: 40px;
+      border-right: 1px solid gray;
+      padding: 0;
+      margin-bottom: 0;
+      @media only screen and (max-width: 768px) {
+        margin: 0;
+        border: none;
+      }
+    }
+
+    .row {
+      margin-right: 40px;
+      margin-bottom: 20px;
+      border-right: 1px solid gray;
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
+      padding: 30px;
+      @media only screen and (max-width: 768px) {
+        margin-right: 0;
+        margin-bottom: 10px;
+        border-right: none;
+        border-bottom: 1px solid gray;
+        border-top: none;
+      }
+
+      .clicked {
+        background-color: #fff;
+      }
+      .col-md-8 {
+        @media only screen and (max-width: 768px) {
+          text-align: center;
+        }
+        .search-heading {
+          font-size: 22px;
+          @media only screen and (max-width: 768px) {
+            font-size: 17px;
+          }
+        }
+        p {
+          font-size: 13px;
+          padding: 0;
+          margin-bottom: 10px;
+          @media only screen and (max-width: 768px) {
+            font-size: 11px;
+          }
+        }
+        .date-cost {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          @media only screen and (max-width: 768px) {
+            flex-direction: column;
+          }
+        }
+        strong {
+          font-weight: bold;
+        }
+      }
     }
   }
 }

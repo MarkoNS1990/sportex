@@ -160,36 +160,126 @@ nav .btn-header:hover {
   background-color: whitesmoke;
 }
 
-.search .col-3 {
+.search .col-sm-3 {
   padding: 20px 20px 20px 80px;
   font-size: 14px;
   border-right: 1px solid gray;
 }
 
 @media only screen and (max-width: 768px) {
-  .search .col-3 {
+  .search .col-sm-3 {
     padding-left: 20px;
     text-align: center;
   }
 }
 
-.search .col-3 input {
+.search .col-sm-3 input {
   margin-right: 5px;
 }
 
-.search .col-3 h5 {
+.search .col-sm-3 h5 {
   margin-bottom: 0;
   padding-top: 15px;
 }
 
-.search .col-3 hr {
+.search .col-sm-3 hr {
   padding: 0;
   margin: 5px 0;
 }
 
-.search .col-3 input,
-.search .col-3 label {
+.search .col-sm-3 input,
+.search .col-sm-3 label {
   padding-bottom: 5px;
+}
+
+.search .col-sm-9 .results {
+  margin-right: 40px;
+  border-right: 1px solid gray;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .results {
+    margin: 0;
+    border: none;
+  }
+}
+
+.search .col-sm-9 .row {
+  margin-right: 40px;
+  margin-bottom: 20px;
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .row {
+    margin-right: 0;
+    margin-bottom: 10px;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-top: none;
+  }
+}
+
+.search .col-sm-9 .row .clicked {
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .row .col-md-8 {
+    text-align: center;
+  }
+}
+
+.search .col-sm-9 .row .col-md-8 .search-heading {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .row .col-md-8 .search-heading {
+    font-size: 17px;
+  }
+}
+
+.search .col-sm-9 .row .col-md-8 p {
+  font-size: 13px;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .row .col-md-8 p {
+    font-size: 11px;
+  }
+}
+
+.search .col-sm-9 .row .col-md-8 .date-cost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-sm-9 .row .col-md-8 .date-cost {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.search .col-sm-9 .row .col-md-8 strong {
+  font-weight: bold;
 }
 
 footer {
