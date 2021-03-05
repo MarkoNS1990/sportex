@@ -160,6 +160,10 @@ nav .btn-header:hover {
   background-color: whitesmoke;
 }
 
+.search .clicked {
+  background-color: #fff;
+}
+
 .search .col-sm-3 {
   padding: 20px 20px 20px 80px;
   font-size: 14px;
@@ -223,10 +227,6 @@ nav .btn-header:hover {
     border-bottom: 1px solid gray;
     border-top: none;
   }
-}
-
-.search .col-sm-9 .row .clicked {
-  background-color: #fff;
 }
 
 @media only screen and (max-width: 768px) {

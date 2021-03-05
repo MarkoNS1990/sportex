@@ -149,6 +149,9 @@ nav {
 .search {
   background-color: whitesmoke;
 
+  .clicked {
+    background-color: #fff;
+  }
   .col-sm-3 {
     padding: 20px 20px 20px 80px;
     font-size: 14px;
@@ -200,9 +203,6 @@ nav {
         border-top: none;
       }
 
-      .clicked {
-        background-color: #fff;
-      }
       .col-md-8 {
         @media only screen and (max-width: 768px) {
           text-align: center;
