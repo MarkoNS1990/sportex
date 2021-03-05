@@ -156,6 +156,42 @@ nav .btn-header:hover {
   font-size: 0.7rem;
 }
 
+.search {
+  background-color: whitesmoke;
+}
+
+.search .col-3 {
+  padding: 20px 20px 20px 80px;
+  font-size: 14px;
+  border-right: 1px solid gray;
+}
+
+@media only screen and (max-width: 768px) {
+  .search .col-3 {
+    padding-left: 20px;
+    text-align: center;
+  }
+}
+
+.search .col-3 input {
+  margin-right: 5px;
+}
+
+.search .col-3 h5 {
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+
+.search .col-3 hr {
+  padding: 0;
+  margin: 5px 0;
+}
+
+.search .col-3 input,
+.search .col-3 label {
+  padding-bottom: 5px;
+}
+
 footer {
   background-color: #383838;
 }

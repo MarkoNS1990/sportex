@@ -144,6 +144,37 @@ nav {
   }
 }
 
+// search
+
+.search {
+  background-color: whitesmoke;
+
+  .col-3 {
+    padding: 20px 20px 20px 80px;
+    font-size: 14px;
+    border-right: 1px solid gray;
+    @media only screen and (max-width: 768px) {
+      padding-left: 20px;
+      text-align: center;
+    }
+    input {
+      margin-right: 5px;
+    }
+    h5 {
+      margin-bottom: 0;
+      padding-top: 15px;
+    }
+    hr {
+      padding: 0;
+      margin: 5px 0;
+    }
+    input,
+    label {
+      padding-bottom: 5px;
+    }
+  }
+}
+
 // footer
 footer {
   background-color: $header-black;
