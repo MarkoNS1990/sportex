@@ -9,6 +9,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@media only screen and (max-width: 768px) {
+  body {
+    overflow: none;
+  }
+}
+
 :root {
   --color-red: #f42;
   --bg-color-red: #f42;
