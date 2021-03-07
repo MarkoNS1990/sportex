@@ -4,6 +4,7 @@
     ==============================================
 */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&family=Stick&display=swap");
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -53,6 +54,7 @@ h1 {
       ==============================================
   */
 /* header */
+
 nav {
   background-color: #383838;
   font-family: "Open Sans", sans-serif;
@@ -82,19 +84,29 @@ nav li {
 
 nav .list-right {
   position: absolute;
-  right: 0px;
+  right: 0;
 }
 
 nav .btn-header:hover {
   -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+  transform: scale(1.06);
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
 
 .heading-img {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 221, 5, 0.7)), to(rgba(19, 18, 18, 0.8))), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
-  background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(55, 221, 5, 0.7)),
+      to(rgba(19, 18, 18, 0.8))
+    ),
+    url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
+      no-repeat;
+  background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)),
+    url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
+      no-repeat;
   height: 300px;
 }
 
@@ -115,8 +127,8 @@ nav .btn-header:hover {
 
 .categories .row {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 768px) {
@@ -128,7 +140,7 @@ nav .btn-header:hover {
 .categories .row .item {
   background-color: whitesmoke;
   -ms-flex-preferred-size: 21%;
-      flex-basis: 21%;
+  flex-basis: 21%;
   margin: 5px;
   padding: 10px;
 }
@@ -136,7 +148,7 @@ nav .btn-header:hover {
 @media only screen and (max-width: 768px) {
   .categories .row .item {
     -ms-flex-preferred-size: 46%;
-        flex-basis: 46%;
+    flex-basis: 46%;
   }
 }
 
@@ -149,8 +161,8 @@ nav .btn-header:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .categories .span-text {
@@ -267,19 +279,19 @@ nav .btn-header:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
   .search .col-sm-9 .row .col-md-8 .date-cost {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
