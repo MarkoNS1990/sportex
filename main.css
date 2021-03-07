@@ -187,11 +187,6 @@ nav .btn-header:hover {
   padding-top: 15px;
 }
 
-.search .col-sm-3 hr {
-  padding: 0;
-  margin: 5px 0;
-}
-
 .search .col-sm-3 input,
 .search .col-sm-3 label {
   padding-bottom: 5px;
