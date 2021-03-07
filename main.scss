@@ -74,6 +74,7 @@ nav {
 
   .navbar-brand {
     font-family: "Stick", sans-serif;
+
     &:hover {
       color: #fff !important;
     }
@@ -102,6 +103,7 @@ nav {
     url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
       no-repeat;
   height: 300px;
+
   @media (max-width: 1085px) {
     height: 80vh;
   }
@@ -123,6 +125,7 @@ nav {
 .categories {
   .row {
     justify-content: space-between;
+
     @media only screen and (max-width: 768px) {
       text-align: center;
     }
@@ -132,6 +135,7 @@ nav {
       flex-basis: 21%;
       margin: 5px;
       padding: 10px;
+
       @media only screen and (max-width: 768px) {
         flex-basis: 46%;
       }
@@ -169,6 +173,7 @@ nav {
     padding: 20px 20px 20px 80px;
     font-size: 14px;
     border-right: 1px solid gray;
+
     @media only screen and (max-width: 768px) {
       padding-left: 20px;
       text-align: center;
@@ -214,6 +219,7 @@ nav {
       border-top: 1px solid gray;
       border-bottom: 1px solid gray;
       padding: 30px;
+
       @media only screen and (max-width: 768px) {
         margin-right: 0;
         margin-bottom: 10px;
@@ -228,6 +234,7 @@ nav {
         }
         .search-heading {
           font-size: 22px;
+
           @media only screen and (max-width: 768px) {
             font-size: 17px;
           }
@@ -237,6 +244,7 @@ nav {
           font-size: 13px;
           padding: 0;
           margin-bottom: 10px;
+
           @media only screen and (max-width: 768px) {
             font-size: 11px;
           }
@@ -246,6 +254,7 @@ nav {
           display: flex;
           justify-content: space-between;
           align-items: center;
+
           @media only screen and (max-width: 768px) {
             flex-direction: column;
           }
@@ -278,6 +287,7 @@ footer {
 }
 
 // media query
+
 @media (min-width: 768px) {
   .container {
     width: 90%;
