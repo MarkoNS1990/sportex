@@ -4,6 +4,7 @@
     ==============================================
 */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&family=Stick&display=swap");
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -49,6 +50,7 @@ h1 {
       ==============================================
   */
 /* header */
+
 nav {
   background-color: #383838;
   font-family: "Open Sans", sans-serif;
@@ -83,7 +85,7 @@ nav .list-right {
 
 nav .btn-header:hover {
   -webkit-transform: scale(1.06);
-          transform: scale(1.06);
+  transform: scale(1.06);
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
@@ -111,8 +113,8 @@ nav .btn-header:hover {
 
 .categories .row {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media only screen and (max-width: 768px) {
@@ -145,8 +147,8 @@ nav .btn-header:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .categories .span-text {
@@ -258,11 +260,11 @@ nav .btn-header:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -295,8 +297,10 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
+
   .container {
     width: 90%;
   }
 }
+
 /*# sourceMappingURL=main.css.map */
