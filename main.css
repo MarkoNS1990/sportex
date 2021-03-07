@@ -49,6 +49,7 @@ h1 {
                   ****** GLOBAL ******
       ==============================================
   */
+
 /* header */
 
 nav {
@@ -126,7 +127,7 @@ nav .btn-header:hover {
 .categories .row .item {
   background-color: whitesmoke;
   -ms-flex-preferred-size: 21%;
-      flex-basis: 21%;
+  flex-basis: 21%;
   margin: 5px;
   padding: 10px;
 }
@@ -134,7 +135,7 @@ nav .btn-header:hover {
 @media only screen and (max-width: 768px) {
   .categories .row .item {
     -ms-flex-preferred-size: 46%;
-        flex-basis: 46%;
+    flex-basis: 46%;
   }
 }
 
@@ -143,8 +144,6 @@ nav .btn-header:hover {
 }
 
 .categories .row .item .item-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -271,8 +270,8 @@ nav .btn-header:hover {
   .search .col-sm-9 .row .col-md-8 .date-cost {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -297,10 +296,10 @@ footer a:hover {
 }
 
 @media (min-width: 768px) {
-
   .container {
     width: 90%;
   }
+
 }
 
 /*# sourceMappingURL=main.css.map */
