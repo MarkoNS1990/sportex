@@ -45,7 +45,6 @@ h1 {
   letter-spacing: 1.3rem;
 }
 
-
 /*
       ==============================================
                   ****** GLOBAL ******
@@ -53,6 +52,7 @@ h1 {
   */
 
 // Variables
+
 $header-black: #383838;
 $price: #d35266;
 
@@ -71,7 +71,7 @@ $price: #d35266;
 
 nav {
   background-color: $header-black;
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
 
   a {
@@ -84,10 +84,10 @@ nav {
 
   .navbar-brand {
     font-family: "Stick", sans-serif;
-    
+
     // fix for extra small devices
 
-    @media only screen and (max-width: 290px){
+    @media only screen and (max-width: 290px) {
       font-size: 0.9rem;
       margin-left: 10px;
     }
@@ -103,7 +103,7 @@ nav {
 
     // fix for extra small devices
 
-    @media only screen and (max-width: 290px){
+    @media only screen and (max-width: 290px) {
       font-size: 0.8rem;
       justify-content: center;
       align-items: center;
@@ -145,8 +145,7 @@ nav {
 }
 
 .heading-top {
-
-  @media only screen and (max-width: 768px){
+ @media only screen and (max-width: 768px) {
     padding: 0;
   }
 }
@@ -331,7 +330,7 @@ footer {
 
 // media query for container
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .container {
     width: 90%;
   }
