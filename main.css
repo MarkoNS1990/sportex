@@ -48,6 +48,13 @@ h1 {
                   ****** GLOBAL ******
       ==============================================
   */
+.btn {
+  background-color: #d35266;
+  border: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /* header */
 nav {
   background-color: #383838;
