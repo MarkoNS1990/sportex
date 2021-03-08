@@ -42,7 +42,7 @@ a {
 h1 {
   font-family: "Stick", sans-serif;
   opacity: 0.6;
-  letter-spacing: 2rem;
+  letter-spacing: 1.3rem;
 }
 
 /*
@@ -74,6 +74,13 @@ nav {
 
   .navbar-brand {
     font-family: "Stick", sans-serif;
+    
+    // fix for extra small devices
+
+    @media only screen and (max-width: 290px){
+      font-size: 0.9rem;
+      margin-left: 10px;
+    }
 
     &:hover {
       color: #fff !important;
@@ -82,6 +89,15 @@ nav {
 
   ul {
     margin: 0;
+    justify-content: space-around;
+
+    // fix for extra small devices
+
+    @media only screen and (max-width: 290px){
+      font-size: 0.8rem;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   li {
@@ -108,9 +124,20 @@ nav {
     url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
     no-repeat;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 
   @media (max-width: 1085px) {
     height: 80vh;
+  }
+}
+
+.heading-top {
+
+  @media only screen and (max-width: 768px){
+    padding: 0;
   }
 }
 
@@ -287,9 +314,9 @@ footer {
   }
 }
 
-// media query
+// media query for container
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px){
   .container {
     width: 90%;
   }
