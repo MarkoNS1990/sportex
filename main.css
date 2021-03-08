@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;900&family=Stick&display=swap");
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 body,
@@ -51,7 +51,7 @@ h1 {
 /* header */
 nav {
   background-color: #383838;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
 }
 
@@ -114,8 +114,8 @@ nav .btn-header:hover {
 }
 
 .heading-img {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 221, 5, 0.7)), to(rgba(19, 18, 18, 0.8))), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
-  background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(221, 5, 52, 0.74)), to(rgba(19, 18, 18, 0.8))), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(221, 5, 52, 0.74), rgba(19, 18, 18, 0.8)), url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover no-repeat;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,6 +202,11 @@ nav .btn-header:hover {
 
 .search {
   background-color: whitesmoke;
+}
+
+.search .btn {
+  background-color: #d35266 !important;
+  margin-bottom: 10px;
 }
 
 .search .clicked {
@@ -334,7 +339,7 @@ footer hr {
 }
 
 footer a:hover {
-  color: green;
+  color: #d35266;
 }
 
 @media only screen and (max-width: 768px) {
