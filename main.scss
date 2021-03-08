@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 body,
@@ -39,14 +39,10 @@ a {
   color: white;
 }
 
-a:hover {
-  color: #333;
-}
-
 h1 {
   font-family: "Stick", sans-serif;
   opacity: 0.6;
-  letter-spacing: 2rem;
+  letter-spacing: 1.3rem;
 }
 
 /*
@@ -56,27 +52,61 @@ h1 {
   */
 
 // Variables
+
 $header-black: #383838;
 $price: #d35266;
 
 //
 
+// global button style
+
+.btn {
+  background-color: $price;
+  border: none;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 /* header */
 
 nav {
   background-color: $header-black;
-  font-family: "Open Sans", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 14px;
+
   a {
     color: #fff !important;
+
     &:hover {
       color: red !important;
     }
   }
+
   .navbar-brand {
     font-family: "Stick", sans-serif;
+
+    // fix for extra small devices
+
+    @media only screen and (max-width: 290px) {
+      font-size: 0.9rem;
+      margin-left: 10px;
+    }
+
     &:hover {
       color: #fff !important;
+    }
+  }
+
+  ul {
+    margin: 0;
+    justify-content: space-around;
+
+    // fix for extra small devices
+
+    @media only screen and (max-width: 290px) {
+      font-size: 0.8rem;
+      justify-content: center;
+      align-items: center;
     }
   }
 
@@ -84,10 +114,12 @@ nav {
     margin-right: 20px;
     list-style-type: none;
   }
+
   .list-right {
     position: absolute;
-    right: 0px;
+    right: 0;
   }
+
   .btn-header:hover {
     transform: scale(1.06);
     transition: 0.5s ease-in;
@@ -95,13 +127,26 @@ nav {
 }
 
 // heading
+
 .heading-img {
-  background: linear-gradient(rgba(55, 221, 5, 0.7), rgba(19, 18, 18, 0.8)),
+  background:
+    linear-gradient(rgba(221, 5, 52, 0.74), rgba(19, 18, 18, 0.8)),
     url(assets/soccer-goal-football-green-grass-field.jpg) center center/cover
-      no-repeat;
+    no-repeat;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
   @media (max-width: 1085px) {
     height: 80vh;
+  }
+}
+
+.heading-top {
+  @media only screen and (max-width: 768px) {
+    padding: 0;
   }
 }
 
@@ -111,22 +156,27 @@ nav {
 }
 
 // hot ads
+
 .hot-ads {
   background-color: whitesmoke;
 }
 
 // categories
+
 .categories {
   .row {
     justify-content: space-between;
+
     @media only screen and (max-width: 768px) {
       text-align: center;
     }
+
     .item {
       background-color: whitesmoke;
       flex-basis: 21%;
       margin: 5px;
       padding: 10px;
+
       @media only screen and (max-width: 768px) {
         flex-basis: 46%;
       }
@@ -141,9 +191,11 @@ nav {
       }
     }
   }
+
   .span-text {
     text-transform: lowercase;
   }
+
   .lead {
     font-size: 0.7rem;
   }
@@ -154,39 +206,47 @@ nav {
 .search {
   background-color: whitesmoke;
 
+  .btn {
+    background-color: $price !important;
+    margin-bottom: 10px;
+  }
+
   .clicked {
     background-color: #fff;
   }
+
   .col-sm-3 {
     padding: 20px 20px 20px 80px;
     font-size: 14px;
     border-right: 1px solid gray;
+
     @media only screen and (max-width: 768px) {
       padding-left: 20px;
       text-align: center;
     }
+
     input {
       margin-right: 5px;
     }
+
     h5 {
       margin-bottom: 0;
       padding-top: 15px;
     }
-    hr {
-      padding: 0;
-      margin: 5px 0;
-    }
+
     input,
     label {
       padding-bottom: 5px;
     }
   }
+
   .col-sm-9 {
     .results {
       margin-right: 40px;
       border-right: 1px solid gray;
       padding: 0;
       margin-bottom: 0;
+
       @media only screen and (max-width: 768px) {
         margin: 0;
         border: none;
@@ -200,6 +260,7 @@ nav {
       border-top: 1px solid gray;
       border-bottom: 1px solid gray;
       padding: 30px;
+
       @media only screen and (max-width: 768px) {
         margin-right: 0;
         margin-bottom: 10px;
@@ -212,28 +273,35 @@ nav {
         @media only screen and (max-width: 768px) {
           text-align: center;
         }
+
         .search-heading {
           font-size: 22px;
+
           @media only screen and (max-width: 768px) {
             font-size: 17px;
           }
         }
+
         p {
           font-size: 13px;
           padding: 0;
           margin-bottom: 10px;
+
           @media only screen and (max-width: 768px) {
             font-size: 11px;
           }
         }
+
         .date-cost {
           display: flex;
           justify-content: space-between;
           align-items: center;
+
           @media only screen and (max-width: 768px) {
             flex-direction: column;
           }
         }
+
         strong {
           font-weight: bold;
         }
@@ -243,6 +311,7 @@ nav {
 }
 
 // footer
+
 footer {
   background-color: $header-black;
 
@@ -255,12 +324,13 @@ footer {
   }
 
   a:hover {
-    color: green;
+    color: $price;
   }
 }
 
-// media query
-@media (min-width: 768px) {
+// media query for container
+
+@media only screen and (max-width: 768px) {
   .container {
     width: 90%;
   }
